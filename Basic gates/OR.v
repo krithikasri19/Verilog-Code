@@ -43,7 +43,7 @@ wire y;
                .y(y)
               );
 initial begin
-$display("AND GATE TRUTH TABLE");
+  $display("OR GATE TRUTH TABLE");
   $monitor("A : %b B : %b     OUT : %b ",a,b,y);
 a = 0 ; b = 0 ; #10 ;
 a = 0 ; b = 1 ; #10 ;
