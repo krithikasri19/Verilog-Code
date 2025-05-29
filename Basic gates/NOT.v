@@ -36,11 +36,11 @@ endmodule
 module not_tb;
 reg a;
 wire y;
-  xor_gate dut(.a(a),
+  not_gate dut(.a(a),
                .y(y)
               );
 initial begin
-  $display("XOR GATE TRUTH TABLE");
+  $display("NOT GATE TRUTH TABLE");
   $monitor("A : %b     OUT : %b ",a,y);
 a = 0 ;  #10 ;
 a = 1 ;  #10 ;
@@ -48,7 +48,7 @@ $finish;
 end
 //TO VIEW WAVEFORMS
 initial begin
-  $dumpfile("xor_gate.vcd");
-  $dumpvars(0,xor_tb);
+  $dumpfile("not_gate.vcd");
+  $dumpvars(0,not_tb);
 end
 endmodule
