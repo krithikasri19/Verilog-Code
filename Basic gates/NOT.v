@@ -29,7 +29,7 @@ module not_gate(
   not n1 (y,a);
 endmodule
 
-//test bench
+
 
 //test bench
 
