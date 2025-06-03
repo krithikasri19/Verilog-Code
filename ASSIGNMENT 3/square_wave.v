@@ -21,4 +21,4 @@ module square_wave_generator_tb;
 endmodule
 
 
-
+C:\Users\KRITHI\OneDrive\Pictures\Screenshots
